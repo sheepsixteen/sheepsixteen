@@ -1,6 +1,5 @@
 ---
 ---
-
 @import url('https://rsms.me/inter/inter.css');
 @import url('https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css');
 
@@ -14,9 +13,15 @@ html {
 
 .container {
   max-width: 800px;
-  width: 95vw;
-  margin: 5em auto;
+  width: 90vw;
+  margin: 2em auto;
+
+  @media screen and (min-width: 30em) {
+    margin-top: 5em;
+  }  
 }
+
+
 
 h2 {
   margin-top: 2em;
